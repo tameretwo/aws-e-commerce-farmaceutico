@@ -41,13 +41,13 @@ Implementar uma solução em nuvem utilizando serviços da AWS para uma empresa 
 
 Data: 07/12/2025  
 Empresa: Abstergo Industries  
-Responsável: Lucas Pimenta  
+Responsável: Lucas Pimenta Barretto
 
 ---
 
 ## Introdução
 
-Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Lucas Pimenta. O objetivo do projeto foi selecionar e aplicar serviços da AWS com foco principal na redução imediata de custos operacionais, escalabilidade automática da aplicação e modernização da infraestrutura, considerando um cenário de e-commerce voltado para a distribuição de produtos farmacêuticos.
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Lucas Pimenta Barretto. O objetivo do projeto foi selecionar e aplicar serviços da AWS com foco principal na redução imediata de custos operacionais, escalabilidade automática da aplicação e modernização da infraestrutura, considerando o interesse na empresa em se tornar uma redistribuidora de produtos farmacêuticos.
 
 Embora a atividade solicite o uso de três serviços principais, a arquitetura proposta utiliza serviços complementares essenciais para garantir segurança, processamento assíncrono, autenticação e monitoramento da aplicação.
 
@@ -79,18 +79,20 @@ Embora a atividade solicite o uso de três serviços principais, a arquitetura p
 
 ---
 
-## Serviços AWS Utilizados
+## Serviços AWS Utilizados e Justificativa
 
-- Amazon EC2  
-- Auto Scaling  
-- Elastic Load Balancer (ELB)  
-- Amazon RDS  
-- Amazon S3  
-- Amazon Cognito  
-- AWS Lambda  
-- Amazon SQS  
-- Amazon SNS  
-- Amazon CloudWatch  
+| Serviço AWS | Função no Projeto | Motivo da Utilização |
+|-------------|-------------------|-----------------------|
+| Amazon EC2 | Hospedagem do frontend e backend da aplicação | Permite executar a aplicação em containers Docker com flexibilidade, controle do ambiente e alta capacidade de processamento. |
+| Auto Scaling | Escalabilidade automática das instâncias EC2 | Garante aumento ou redução automática de servidores conforme a demanda, mantendo performance e reduzindo custos. |
+| Elastic Load Balancer (ELB) | Distribuição de tráfego entre as instâncias | Evita sobrecarga em um único servidor e garante alta disponibilidade da aplicação. |
+| Amazon RDS | Banco de dados relacional da aplicação | Armazena dados de clientes, pedidos e estoque com gerenciamento automático de backups, segurança e alta disponibilidade. |
+| Amazon S3 | Armazenamento de imagens dos produtos | Reduz o consumo de recursos das instâncias EC2 e oferece alta durabilidade com baixo custo. |
+| Amazon Cognito | Autenticação e cadastro de usuários | Garante segurança no login, controle de acesso e proteção dos dados dos clientes. |
+| AWS Lambda | Validação automática dos pagamentos | Processa a validação sem necessidade de servidores dedicados, reduzindo custos e aumentando a eficiência. |
+| Amazon SQS | Fila de processamento de pedidos | Organiza os pedidos e garante que sejam processados corretamente mesmo em picos de acesso. |
+| Amazon SNS | Envio de notificações ao cliente | Informa automaticamente o status do pedido ao cliente em caso de sucesso ou falha. |
+| Amazon CloudWatch | Monitoramento da aplicação | Permite acompanhamento de métricas, desempenho, logs e criação de alertas em tempo real. |
 
 ---
 
